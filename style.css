@@ -16,3 +16,8 @@ body{
 hr.h-color{
     background: white;
 }
+
+.sidebar li.active{
+    background: white;
+    border-radius: 8px;
+}
