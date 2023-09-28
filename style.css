@@ -28,3 +28,14 @@ hr.h-color{
 .sidebar li a{
     color: white;
 }
+
+@media(max-width: 767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+
+    }
+    
+}
