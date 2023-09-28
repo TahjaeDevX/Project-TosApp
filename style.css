@@ -3,7 +3,7 @@ body{
 }
 
 #side_nav{
-    background: darkgray;
+    background: rgb(0, 0, 0);
     min-width: 250px;
     max-width: 250px;
 }
@@ -20,4 +20,11 @@ hr.h-color{
 .sidebar li.active{
     background: white;
     border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a.hover {
+    color: black;
+}
+.sidebar li a{
+    color: white;
 }
